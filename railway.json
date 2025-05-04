@@ -1,0 +1,10 @@
+{
+  "build": {
+    "builder": "docker"
+  },
+  "deploy": {
+    "startCommand": "npm start",
+    "healthcheckPath": "/",
+    "port": 3000
+  }
+}
